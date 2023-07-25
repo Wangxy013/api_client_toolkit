@@ -2,6 +2,7 @@ from typing import Type
 
 import requests
 from pydantic import BaseModel, Field
+from superagi.tools.base_tool import BaseTool
 
 
 def get(url):
