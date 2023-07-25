@@ -7,8 +7,8 @@ from api_client_tool import APIClientTool
 
 
 class ApiClientToolkit(BaseToolkit, ABC):
-    name: str = "api client tools"
-    description: str = "api client tools provides generic interaction for invoking external generic apis"
+    name: str = "API Client ToolKit"
+    description: str = "Api client toolkit provides generic interaction for invoking external generic apis"
 
     def get_tools(self) -> List[BaseTool]:
         return [APIClientTool()]
