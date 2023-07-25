@@ -5,7 +5,7 @@ from typing import Type, List
 from api_client_tool import APIClientTool
 
 
-class IflytekArtifactoryToolkit(BaseToolkit, ABC):
+class ApiClientToolkit(BaseToolkit, ABC):
     name: str = "api client tools"
     description: str = "api client tools provides generic interaction for invoking external generic apis"
 
