@@ -1,5 +1,4 @@
 requests
-autospark_kit
 superagi-tools
 pydantic==1.10.8
 PyYAML==6.0

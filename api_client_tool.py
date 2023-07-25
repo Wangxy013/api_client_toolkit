@@ -1,7 +1,6 @@
 from typing import Type
 
 import requests
-from autospark_kit.tools.base_tool import BaseTool
 from pydantic import BaseModel, Field
 
 
